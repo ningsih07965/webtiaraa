@@ -1,0 +1,104 @@
+/* RESET & BASIC */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #78a1df;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* HEADER */
+header {
+  background-color: #4b7bec;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+/* CONTAINER GRID */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  margin: 40px auto;
+  max-width: 1000px;
+  background-color: rgb(241, 167, 167);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+/* FOTO */
+.gambar img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* DESKRIPSI */
+.deskripsi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.deskripsi p {
+  margin-bottom: 14px;
+  text-align: justify;
+}
+
+blockquote {
+  background-color: #78afb3;
+  padding: 15px;
+  border-left: 6px solid #22a6b3;
+  border-radius: 6px;
+  font-style: italic;
+  color: #2d3436;
+  margin-top: 20px;
+}
+
+/* HOBI */
+.hobi {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+.hobi h2 {
+  color: #4b4b4b;
+  margin-bottom: 15px;
+}
+
+.hobi ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.hobi li {
+  background-color: #5e5be2;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
